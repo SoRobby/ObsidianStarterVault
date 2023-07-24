@@ -1,6 +1,7 @@
 ---
 cssclass: pinned-pages
 ---
+**Tasks**
 ```dataviewjs
 let tasks = dv.pages('').file.tasks
 let completedTasks = dv.pages('').file.tasks.where(t => t.completed)

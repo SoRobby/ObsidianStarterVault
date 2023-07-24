@@ -5,7 +5,8 @@
   "enabledCssSnippets": [
     "Custom style",
     "Multi columns",
-    "tailwind"
+    "tailwind",
+    "Pinned Pages"
   ],
   "baseFontSize": 16
 }

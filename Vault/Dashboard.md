@@ -1,17 +1,10 @@
 ---
 banner: "![[banner-dashboard.jpg]]"
-date_created: 2023-07-05
-date_modified: 2023-07-19
-description: Section for other folders.
-document_type: dashboard
 include_in_navbar: true
 navbar_name: Dashboard
 tags: dashboard
 ---
-```dataviewjs
-const {Navbar} = customJS;
-await Navbar.createNavbar(app, dv); 
-```
+**[[Dashboard|Dashboard]]** | [[Concept Board/Concept Board|Concept Board]] | [[Journal/Journal Dashboard|Journal]] | [[Learning/Learning Dashboard|Learning]] | [[Notes/Notes Dashboard|Notes]] | [[Personal/Personal Dashboard|Personal]] | [[Projects/Projects|Projects]] | [[Resources/Resources Dashboard|Resources]] | [[Spaces/Spaces Dashboard|Spaces]]
 # Dashboard
 >[!multi-column]
 >>[!blank-container]
@@ -41,9 +34,18 @@ await Navbar.createNavbar(app, dv);
 >>[!blank-container]
 >>### 🚀 Upcoming Launches
 >>```dataviewjs
->>const {UpcomingRocketLaunches} = customJS;
->>let element = this.container.createEl('div', {cls: ["tailwind"]});
->>await UpcomingRocketLaunches.getUpcomingRocketLaunches(element);
+>>function construct_elements(data) {
+>>for(let i=0; i<data.length; i++){
+>>	let missions = [];
+>>	for(let j=0; j<data[i].missions.length; j++){missions.push(data[i].missions[j].name)}
+>>	dv.el("div", 
+>>	`<div class="tailwind"><div class='block py-2'><div class="text-xl font-bold text-gray-800">${data[i].name}<small class="float-right text-gray-600 font-semibold text-sm pl-2">${data[i].date_str}</small></div> <div class="text-sm font-semibold text-gray-600">Vehicle: ${data[i].vehicle.name}</div> <div class="text-sm font-semibold text-gray-600">Missions: ${missions}</div> <div class="text-sm text-gray-600"> ${data[i].launch_description} </div> </div> </div>
+>>	`
+>>	)
+>>}
+>>}
+>>let response = await fetch('https://fdo.rocketlaunch.live/json/launches/next/5') 
+>>response.json().then(j => construct_elements(j.result))
 >>```
 >
 >>[!blank-container]
@@ -97,7 +99,7 @@ const {News} = customJS;
 let element = this.container.createEl('div', {cls: ["tailwind"]});
 let newsCategory = 'stocks';
 let articleCount = '6';
-let apiKey = 'a0f6f4cac40ace9b1049508dda594414';
+let apiKey = 'e40a3e9b49a4248f96e15459daa4a434';
 await News.listNews(element, newsCategory, articleCount, apiKey);
 ```
 ---

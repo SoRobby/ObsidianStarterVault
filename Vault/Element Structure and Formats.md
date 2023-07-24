@@ -52,10 +52,10 @@ Paragraph text
 
 **Task List**
 - [x] Task 1 ✅ 2023-07-14
-- [ ] Task 2
-	- [ ] Nested task 2.1
+- [x] Task 2 ✅ 2023-07-23
+	- [x] Nested task 2.1 ✅ 2023-07-23
 	- [x] Nested task 2.2 ✅ 2023-07-14
-- [ ] Task 3
+- [x] Task 3 ✅ 2023-07-23
 
 ---
 ## Tags
