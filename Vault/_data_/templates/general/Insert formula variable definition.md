@@ -1,0 +1,1 @@
+$my\space var$ = My variable.<% tp.file.cursor(1) %>

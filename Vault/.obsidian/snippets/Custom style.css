@@ -1,0 +1,115 @@
+/* Custom styles created by Robert Miller */
+
+/* Image elements */
+img {
+    border-radius: 0.375rem; /* 6px */
+}
+
+img[alt*="left"] {
+    display: block;
+}
+
+img[alt*="center"] {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+img[alt*="right"] {
+    display: block;
+    margin-left: auto !important;
+}
+
+img[alt*="rounded-full"] {
+    border-radius: 9999px;
+}
+
+.theme-light img {
+    border: 1px solid #e5e7eb;
+}
+
+.theme-dark img {
+    border: 1px solid #1f2937;
+}
+
+
+/* Embeded links */
+.w {
+    border-radius: 0.375rem;
+}
+
+img {
+    border-radius: 0.375rem;
+}
+
+
+/* Center text */
+div[data-callout="center-text"].callout > .callout-title { display: none; }
+div[data-callout="center-text"].callout > .callout-content { display: contents; }
+div[data-callout="center-text"].callout{
+    background: unset;
+    border: unset;
+    margin: unset;
+    padding: unset;
+    clear: both;
+}
+
+div[data-callout="center-text"].callout{
+    text-align: center;
+}
+
+
+div[data-callout="center-text"].callout > .callout-content > p {
+    padding: 0px !important;
+    border: unset;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    clear: both;
+}
+
+
+
+/* Buttons custom style */
+/* Custom Button Plugin Style */
+.theme-light .tailwind-button-white {
+    background: white !important;
+    color: #374151 !important;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem !important;
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 0) !important;
+    border-radius: 0.375rem !important;
+    cursor: pointer;
+}
+
+.theme-light .tailwind-button-white:hover {
+    background: #f9fafb !important;    
+}
+
+
+.theme-dark .tailwind-button-white {
+    background: transparent !important;
+    color: #94a3b8 !important;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem !important;
+    border: 1px solid #4b5563 !important;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 0) !important;
+    border-radius: 0.375rem !important;
+    cursor: pointer;
+}
+
+.theme-dark .tailwind-button-white:hover {
+    /* background: #1f2937 !important; */
+    background: var(--background-modifier-hover);
+}
+
+
+/* .markdown-rendered hr {
+    margin-top: 1.2rem !important;
+    margin-bottom: 1.2rem !important;
+} */
+

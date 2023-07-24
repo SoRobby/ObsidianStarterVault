@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "80b8f9416df1413b",
+    "type": "split",
+    "children": [
+      {
+        "id": "60812d65863c82df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da68bb9d59308ad3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e14175cd534ace2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a5a46f35bfd6e3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b086af801e8a41b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d898f7a13d78898",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdd19e4ea68307e0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379.5
+  },
+  "right": {
+    "id": "a60f7122a537c574",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e3ab805b43b8465",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3795fe9dac32b278",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "acd963a0bcfcf3b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cd83ac56a691861",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a5cb51a49770beda",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "da68bb9d59308ad3",
+  "lastOpenFiles": [
+    "README.md",
+    "Inbox.md",
+    "_data_/media/dashboard-preview.png",
+    "_data_/media/255020736-42c6f878-46e3-4602-9224-5d92918bef07.png",
+    "Element Structure and Formats.md",
+    "Dashboard.md",
+    "_data_/templates/development/get_page_title.md",
+    "_data_/templates/development/Index Space.md",
+    "_data_/templates/development/Dashboard list page.md",
+    "_data_/templates/development/check_if_file_is_empty.md",
+    "_data_/templates/dataview/Dataview flat table.md",
+    "_data_/templates/dataview/Dataview nested table.md",
+    "_data_/templates/dataview/Insert navigation bar.md",
+    "_data_/templates/dataview/List installed plugins.md",
+    "Test.md",
+    "Projects/Projects.md",
+    "Projects/Testerz/Home.md",
+    "Projects/Testerz/Tasks.md",
+    "Projects/Testerz/References.md",
+    "Projects/Testerz/Notes/All Notes.md",
+    "Projects/Testerz/Meetings/All Meetings.md",
+    "Projects/Testerz/Notes",
+    "Projects/Testerz/Meetings",
+    "Projects/Testerz",
+    "_data_/templates/project/Project setup.md",
+    "Projects/test/Home.md",
+    "Projects/test/Tasks.md",
+    "Projects/test/References.md",
+    "Projects/test/Notes/All Notes.md",
+    "Projects/test/Meetings/All Meetings.md",
+    "Projects/test/Notes",
+    "Projects/test/Meetings",
+    "Projects/test",
+    "Projects/Old Project/Notes",
+    "Projects/Old Project/Meetings",
+    "Projects/Old Project",
+    "Projects/Test/Notes",
+    "_data_/media/profile-picture-placeholder.jpg",
+    "_data_/media/example-image-02.png",
+    "_data_/media/example-image-01.png",
+    "_data_/media/Pasted image 20230712213115.png",
+    "_data_/media/Pasted image 20230712213413.png",
+    "_data_/media/blank-profile-picture.webp",
+    "_data_/media/banners/banner-inbox.jpg",
+    "_data_/media/banners/banner-spaces.jpg"
+  ]
+}

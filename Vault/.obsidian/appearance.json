@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "Custom style",
+    "Multi columns",
+    "tailwind"
+  ],
+  "baseFontSize": 16
+}

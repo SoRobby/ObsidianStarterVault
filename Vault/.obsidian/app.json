@@ -1,0 +1,16 @@
+{
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "_data_/media",
+  "promptDelete": false,
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showFrontmatter": false
+}
