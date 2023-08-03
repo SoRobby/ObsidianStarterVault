@@ -45,5 +45,6 @@
   "minimal-style@@h4-weight": 600,
   "minimal-style@@h4-variant": "normal",
   "minimal-style@@h5-variant": "normal",
-  "minimal-style@@h6-variant": "normal"
+  "minimal-style@@h6-variant": "normal",
+  "minimal-style@@inline-title-size": "1.125em"
 }

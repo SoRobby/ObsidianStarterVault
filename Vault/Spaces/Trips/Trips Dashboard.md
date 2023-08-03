@@ -1,7 +1,7 @@
 ---
 banner: ""
 date_created: 2023-07-08
-date_modified: 2023-07-18
+date_modified: 2023-07-17
 description: List of all travel and trips.
 document_type: dashboard
 tags: dashboard travel trips
@@ -15,7 +15,7 @@ List of all travel and trips.
 
 ```button
 name + Add trip
-type note(Spaces/Trips/Entries/untitled trip) template
+type note(Spaces/Trips/untitled trip) template
 action general/Travel and trip
 templater true
 class tailwind-button-white
