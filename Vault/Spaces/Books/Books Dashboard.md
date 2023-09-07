@@ -9,9 +9,9 @@ tags: dashboard books
 [[Spaces/Spaces Dashboard|Spaces]] / **[[Spaces/Books/Books Dashboard|Books]]**
 # Books
 Collection of books and book notes.
-Books read: `$= dv.pages('"Books" and !#dashboard').where(page => page.status =="read").length`
-Books currently reading: `$= dv.pages('"Books" and !#dashboard').where(page => page.status =="unread").length`
-Total number of books: `$= dv.pages('"Books" and !#dashboard').length`
+Books read: `$= dv.pages('"Spaces/Books" and !#dashboard').where(page => page.status =="read").length`
+Books currently reading: `$= dv.pages('"Spaces/Books" and !#dashboard').where(page => page.status =="unread").length`
+Total number of books: `$= dv.pages('"Spaces/Books" and !#dashboard').length`
 
 **Add a new book**
 ```button
