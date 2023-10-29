@@ -26,7 +26,7 @@ Time: <% tp.file.creation_date("hh:mm a") %>
 Description:: <% `${title}` %> <% tp.file.cursor(1) %>
 
 **Attendees**
-- Robert Miller
+- SoRobby
 
 ## Notes
 
